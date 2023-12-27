@@ -1,0 +1,27 @@
+.card{
+    width: 20rem;
+    margin: 2rem 3rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px grey;
+    gap: 1rem;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.card>img{
+    height: 203px;
+    width: 254px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+.card:hover{
+    transform: rotate(3deg);
+    
+    
+}
+

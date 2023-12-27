@@ -1,0 +1,78 @@
+.header {
+  position: sticky;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  background-color: rgba(155, 155, 29, 0.479);
+  padding-top: 0;
+  margin: 0;
+  
+}
+.not{
+  display: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+.logo {
+  height: 8rem;
+  width: 11rem;
+  border: 1px solid transparent;
+  mix-blend-mode: color-burn;
+  /* border-radius: 50px; */
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+ 
+}
+.nav-menu>a{
+    text-decoration: none;
+}
+.nav-items {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+}
+.nav-items:hover {
+  border-bottom: 3px solid orange;
+}
+.sign-log {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.sign-log>link> button {
+  height: 3rem;
+  width: 6rem;
+  font-size: small;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2.5rem;
+  border: 2px solid black;
+}
+.sign-log>Link>button:hover{
+    background-color: transparent;
+    color: black;
+
+}
+.badge{
+  top: 0;
+  position: absolute;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: orangered;
+}

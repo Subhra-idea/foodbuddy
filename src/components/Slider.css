@@ -1,0 +1,40 @@
+.slider {
+  width: 100vw;
+  height: 50vh;
+  border: 2px solid black;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background: url('./assets/hero-img.jpg')  ;
+  
+  /* opacity: .5; */
+  /* background: url('./imgs/hero.jpg') no-repeat center center/cover; */
+  
+}
+.search {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+ 
+  width: 70vw;
+}
+
+.search > input {
+  width: 50%;
+  border: 1px solid orange;
+}
+.search > button {
+  width: 120px;
+  font-size: 1rem;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  /* margin: auto; */
+}
